@@ -1,0 +1,30 @@
+- 👋 Hi, I’m @Beru-star
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+Beru-star/Beru-star is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+![image](https://github.com/Beru-star/Beru-star/assets/174654230/bd3a2a89-9bdc-4c46-bb54-508b008fa09f)
+
+--->
+{
+  "manifest_version": 2,
+  "name": "Wild West Gold 1xbet Extension",
+  "version": "1.0",
+  "description": "Extension for automating gameplay in Wild West Gold on 1xbet",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://1x-bet.mobi/en/allgamesentrance/goldofwest"],
+      "js": ["content.js"]
+    }
+  ]
+}
